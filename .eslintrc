@@ -1,7 +1,5 @@
 {
     "extends": "@react-native-community",
-    "parser": "@babel/eslint-parser",
-    "requireConfigFile": false,
     "rules": {
         "quotes": [2, "double", { "avoidEscape": true }]
       }

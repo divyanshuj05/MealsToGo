@@ -1,15 +1,15 @@
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import React from "react";
-import { RestaurentScreen } from "./src/components/restaurents/screen/restaurent.screen";
+
+import { RestaurantsScreen } from "./src/features/restaurants/screens/restaurants.screen";
+
 export default function App() {
   return (
     <>
-     <RestaurentScreen />
+      <RestaurantsScreen />
       <ExpoStatusBar style="auto" />
     </>
   );
 }
 
-const styles = StyleSheet.create({
 
-});

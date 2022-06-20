@@ -7,7 +7,7 @@ export const RestaurentInfo = ( {restaurent = {}}) => {
         name = "wrapchik",
         icon ,
         photos = ['https://picsum.photos/700'],
-        address = tiet,
+        address = "tiet",
         isOpenNow = true,
         rating = 4,
         isClosedTemporarily ,
